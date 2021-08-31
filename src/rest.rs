@@ -38,7 +38,7 @@ use std::sync::Arc;
 use std::thread;
 use url::form_urlencoded;
 
-const CHAIN_TXS_PER_PAGE: usize = 25;
+const CHAIN_TXS_PER_PAGE: usize = 250;
 const MAX_MEMPOOL_TXS: usize = 50;
 const BLOCK_LIMIT: usize = 10;
 const ADDRESS_SEARCH_LIMIT: usize = 10;
